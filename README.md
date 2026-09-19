@@ -59,3 +59,25 @@ git add <file-name>
 ```bash
 git add .
 ```
+## Commit / Snapshot
+
+<div dir="rtl">
+
+بعد از اینکه تغییرات فایل‌ها در <span dir="ltr">Staging Area</span> آماده‌ی ثبت شدند، با استفاده از دستور زیر می‌توان آن‌ها را ثبت کرد:
+
+</div>
+
+```bash
+git commit -m "commit message"
+```
+
+<div dir="rtl">
+
+با اجرای دستور <span dir="ltr">`git commit`</span>، از تغییراتی که در <span dir="ltr">Staging Area</span> قرار دارند یک <span dir="ltr">Snapshot</span> ایجاد می‌شود.
+
+هر <span dir="ltr">Commit</span> در واقع یک نقطه‌ی ثبت‌شده از وضعیت پروژه است که می‌توان بعداً در تاریخچه‌ی <span dir="ltr">Git</span> به آن مراجعه کرد.
+
+نکته: <span dir="ltr">Commit</span> فقط تغییراتی را ثبت می‌کند که قبلاً با دستور <span dir="ltr">`git add`</span> به <span dir="ltr">Staging Area</span> اضافه شده‌اند.
+
+</div>
+
