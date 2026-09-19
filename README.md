@@ -115,4 +115,25 @@ git switch <branch-name>
 در صورت نیاز، می‌توان تغییرات یک <span dir="ltr">Branch</span> را بعداً با استفاده از عملیاتی مانند <span dir="ltr">`merge`</span> وارد شاخه‌ی دیگری کرد.
 
 </div>
+## Tag
+
+<div dir="rtl">
+
+در <span dir="ltr">Git</span> برای مشخص کردن یک <span dir="ltr">Commit</span> مهم و ایجاد یک نشانه برای آن از <span dir="ltr">Tag</span> استفاده می‌شود.
+
+<span dir="ltr">Tag</span> معمولاً برای مشخص کردن نسخه‌های مختلف و منتشرشده‌ی پروژه مانند <span dir="ltr">v1.0</span> یا <span dir="ltr">v2.0</span> استفاده می‌شود.
+
+برای ایجاد یک <span dir="ltr">Tag</span> روی <span dir="ltr">Commit</span> فعلی از دستور زیر استفاده می‌شود:
+
+</div>
+
+```bash
+git tag v1.0
+```
+
+<div dir="rtl">
+
+برخلاف <span dir="ltr">Branch</span> که با ایجاد <span dir="ltr">Commit</span>های جدید حرکت می‌کند، <span dir="ltr">Tag</span> معمولاً ثابت بوده و به یک <span dir="ltr">Commit</span> مشخص اشاره می‌کند.
+
+</div>
 
