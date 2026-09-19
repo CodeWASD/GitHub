@@ -57,7 +57,7 @@ git add <file-name>
 </div>
 
 ```bash
-git add .
+git add -A
 ```
 ## Commit / Snapshot
 
@@ -80,6 +80,7 @@ git commit -m "commit message"
 نکته: <span dir="ltr">Commit</span> فقط تغییراتی را ثبت می‌کند که قبلاً با دستور <span dir="ltr">`git add`</span> به <span dir="ltr">Staging Area</span> اضافه شده‌اند.
 
 </div>
+
 ## Branch
 
 <div dir="rtl">
@@ -105,7 +106,7 @@ git branch <branch-name>
 </div>
 
 ```bash
-git switch <branch-name>
+git Checkout <branch-name>
 ```
 
 <div dir="rtl">
@@ -115,23 +116,17 @@ git switch <branch-name>
 در صورت نیاز، می‌توان تغییرات یک <span dir="ltr">Branch</span> را بعداً با استفاده از عملیاتی مانند <span dir="ltr">`merge`</span> وارد شاخه‌ی دیگری کرد.
 
 </div>
-## Tag
+## Merge
 
 <div dir="rtl">
 
-در <span dir="ltr">Git</span> برای مشخص کردن یک <span dir="ltr">Commit</span> مهم و ایجاد یک نشانه برای آن از <span dir="ltr">Tag</span> استفاده می‌شود.
-
-<span dir="ltr">Tag</span> معمولاً برای مشخص کردن نسخه‌های مختلف و منتشرشده‌ی پروژه مانند <span dir="ltr">v1.0</span> یا <span dir="ltr">v2.0</span> استفاده می‌شود.
-
-برای ایجاد یک <span dir="ltr">Tag</span> روی <span dir="ltr">Commit</span> فعلی از دستور زیر استفاده می‌شود:
+بعد از اینکه رفع باگ یا توسعه یک قابلیت در Branchها انجام و به وضعیت نهایی در آن شاخه رسیدیم برای اعمال کردن روی پروژه اصلی و ادغام آن با فایل های قبلی دستور Mergeوجود دارد که به این صورت استفاده می شود
 
 </div>
 
 ```bash
-git tag v1.0
+git merge <Branch name>
 ```
-
-<div dir="rtl">
 ## TAG
 
 <div dir="rtl">
@@ -151,6 +146,7 @@ git tag v1.0
 یک Tag همواره به همان Commit اشاره میکند و با پیشروی برنامه تغییری نمی کند.
 
 </div>
+
 ## HEAD
 <div dir='rtl'>
 در gitبرای دیدن log از دستور زیر استفاده می شود:
@@ -162,9 +158,3 @@ git log
 <div dir='rtl'>
 HEADبه اخرین  Snapshotموجود اشاره میکند
 </div>
-
-
-برخلاف <span dir="ltr">Branch</span> که با ایجاد <span dir="ltr">Commit</span>های جدید حرکت می‌کند، <span dir="ltr">Tag</span> معمولاً ثابت بوده و به یک <span dir="ltr">Commit</span> مشخص اشاره می‌کند.
-
-</div>
-
