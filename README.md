@@ -132,6 +132,26 @@ git tag v1.0
 ```
 
 <div dir="rtl">
+## TAG
+
+<div dir="rtl">
+
+در گیت برای مشخص کردن یک Commit مهم یا برچسب از Tag استفاده میشود.
+
+و همچنین برای نمایش نسخه های مختلف یک برنامه از آن نیز استفاده میشود و برای استفاده از آن:
+
+</div>
+
+```bash
+git tag v1.0
+```
+
+<div dir="rtl">
+
+یک Tag همواره به همان Commit اشاره میکند و با پیشروی برنامه تغییری نمی کند.
+
+</div>
+
 
 برخلاف <span dir="ltr">Branch</span> که با ایجاد <span dir="ltr">Commit</span>های جدید حرکت می‌کند، <span dir="ltr">Tag</span> معمولاً ثابت بوده و به یک <span dir="ltr">Commit</span> مشخص اشاره می‌کند.
 
