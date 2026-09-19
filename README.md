@@ -2,4 +2,8 @@
 Learning git Server
 ## Requirments
 
-Two hands One keyboard to make your Dream Real
+Two hands 
+
+One keyboard 
+
+to make your Dream Real
