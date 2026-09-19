@@ -158,3 +158,13 @@ git log
 <div dir='rtl'>
 HEADبه اخرین  Snapshotموجود اشاره میکند
 </div>
+## SHA / Commit Hash
+
+<div dir="rtl">
+
+هر <span dir="ltr">Commit</span> علاوه بر <span dir="ltr">Commit Message</span> دارای یک شناسه یا <span dir="ltr">Commit Hash</span> است که آن را از سایر <span dir="ltr">Commit</span>ها متمایز می‌کند و این امکان را می‌دهد که با استفاده از آن به یک <span dir="ltr">Commit</span> مشخص دسترسی داشته باشیم.
+
+در <span dir="ltr">Git</span> برای ایجاد این شناسه از الگوریتم‌های هش خانواده <span dir="ltr">SHA</span> استفاده می‌شود.
+
+</div>
+
