@@ -151,6 +151,17 @@ git tag v1.0
 یک Tag همواره به همان Commit اشاره میکند و با پیشروی برنامه تغییری نمی کند.
 
 </div>
+## HEAD
+<div dir='rtl'>
+در gitبرای دیدن log از دستور زیر استفاده می شود:
+</div>
+
+```bash
+git log
+```
+<div dir='rtl'>
+HEADبه اخرین  Snapshotموجود اشاره میکند
+</div>
 
 
 برخلاف <span dir="ltr">Branch</span> که با ایجاد <span dir="ltr">Commit</span>های جدید حرکت می‌کند، <span dir="ltr">Tag</span> معمولاً ثابت بوده و به یک <span dir="ltr">Commit</span> مشخص اشاره می‌کند.
