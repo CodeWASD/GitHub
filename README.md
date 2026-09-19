@@ -80,4 +80,39 @@ git commit -m "commit message"
 نکته: <span dir="ltr">Commit</span> فقط تغییراتی را ثبت می‌کند که قبلاً با دستور <span dir="ltr">`git add`</span> به <span dir="ltr">Staging Area</span> اضافه شده‌اند.
 
 </div>
+## Branch
+
+<div dir="rtl">
+
+از آنجایی که <span dir="ltr">Git</span> یک سیستم <span dir="ltr">Version Control</span> است، امکان کار روی چند شاخه یا <span dir="ltr">Branch</span> مختلف را فراهم می‌کند.
+
+استفاده از <span dir="ltr">Branch</span> باعث می‌شود چند توسعه‌دهنده بتوانند هم‌زمان روی بخش‌های مختلف یک پروژه کار کنند. همچنین می‌توان برای توسعه‌ی یک قابلیت جدید، رفع یک مشکل یا آزمایش تغییرات، یک شاخه‌ی جداگانه ایجاد کرد.
+
+شاخه‌ی اصلی پروژه معمولاً <span dir="ltr">`main`</span> یا در برخی پروژه‌های قدیمی‌تر <span dir="ltr">`master`</span> نام دارد.
+
+برای ایجاد یک <span dir="ltr">Branch</span> جدید می‌توان از دستور زیر استفاده کرد:
+
+</div>
+
+```bash
+git branch <branch-name>
+```
+
+<div dir="rtl">
+
+برای رفتن به <span dir="ltr">Branch</span> موردنظر می‌توان از دستور زیر استفاده کرد:
+
+</div>
+
+```bash
+git switch <branch-name>
+```
+
+<div dir="rtl">
+
+هر <span dir="ltr">Branch</span> مسیر مستقلی از <span dir="ltr">Commit</span>ها را دنبال می‌کند. بنابراین <span dir="ltr">Commit</span>هایی که روی یک <span dir="ltr">Branch</span> انجام می‌شوند، مستقیماً شاخه‌های دیگر را تغییر نمی‌دهند.
+
+در صورت نیاز، می‌توان تغییرات یک <span dir="ltr">Branch</span> را بعداً با استفاده از عملیاتی مانند <span dir="ltr">`merge`</span> وارد شاخه‌ی دیگری کرد.
+
+</div>
 
